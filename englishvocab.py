@@ -9,7 +9,7 @@ from difflib import get_close_matches
 
 #import the Vocabulary File (a .json file that contains all vocabularies and their meanings)
 # A Data file of Words and Definitions
-data = json.load(open("classworks\\python_mega\\interactive_dictionary\\data.json"))
+data = json.load(open("data.json"))
 
 def translate(word):
     return data[word]
